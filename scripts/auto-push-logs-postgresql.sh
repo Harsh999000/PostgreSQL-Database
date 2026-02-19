@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_NAME="$(basename "$0")"
-CRONLOG_DIR="/db1/myserver/postgresql/cronlogs"
+CRONLOG_DIR="/db1/myserver/postgresql/cronlog"
 LOG_DATE="$(date +%F)"
 CRONLOG_FILE="$CRONLOG_DIR/postgresql-cronlog-$LOG_DATE.log"
 
@@ -31,9 +31,6 @@ git rebase origin/main
 
 log "Force adding archived PostgreSQL logs"
 git add -f logs/*.log 2>/dev/null || true
-
-# Ensure deletions are never staged
-git reset HEAD logs/*.log 2>/dev/null || true
 
 if git diff --cached --quiet; then
   log "No new PostgreSQL logs to commit."

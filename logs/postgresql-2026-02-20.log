@@ -1,0 +1,124 @@
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.899 IST [4994] [unknown]@[unknown] [local] LOG:  connection received: host=[local]
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.978 IST [4995] [unknown]@[unknown] [local] LOG:  connection received: host=[local]
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.064 IST [4995] harsh@harsh [local] LOG:  connection authenticated: identity="harsh" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:9)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.064 IST [4995] harsh@harsh [local] LOG:  connection authorized: user=harsh database=harsh application_name=psql
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.777 IST [4995] harsh@harsh [local] ERROR:  relation "table_that_does_not_exist" does not exist at character 15
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.777 IST [4995] harsh@harsh [local] STATEMENT:  SELECT * FROM table_that_does_not_exist;
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.581 IST [5332] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=36706
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.286 IST [5335] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=59124
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.370 IST [5335] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.370 IST [5335] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.692 IST [5338] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=59130
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.807 IST [5339] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=41624
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.893 IST [5339] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.893 IST [5339] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.770 IST [5339] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.963 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=41624
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.794 IST [5343] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=41626
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.669 IST [5344] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=41638
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.753 IST [5344] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.754 IST [5344] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.324 IST [2251] @  LOG:  checkpoint starting: time
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.796 IST [5344] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.127 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=41638
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.819 IST [5348] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=46254
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.835 IST [2251] @  LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.145 s, sync=0.109 s, total=1.511 s; sync files=4, longest=0.108 s, average=0.028 s; distance=31 kB, estimate=31 kB; lsn=0/192C4E0, redo lsn=0/192C4A8
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.988 IST [5399] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40336
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.061 IST [5399] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.061 IST [5399] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.105 IST [5402] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40344
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.145 IST [5402] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.145 IST [5402] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.298 IST [5402] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.193 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=40344
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.315 IST [5405] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40358
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.377 IST [5405] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.377 IST [5405] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.534 IST [5405] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.219 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=40358
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.552 IST [5408] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40372
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.591 IST [5408] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.591 IST [5408] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.002 IST [5408] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.450 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=40372
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.005 IST [5399] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.016 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=40336
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.869 IST [5605] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=51532
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.943 IST [5605] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.943 IST [5605] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.981 IST [5608] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=51544
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.050 IST [5608] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.050 IST [5608] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.207 IST [5608] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.226 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=51544
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.226 IST [5611] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=51560
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.296 IST [5611] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.296 IST [5611] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.453 IST [5611] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.227 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=51560
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.470 IST [5614] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=51564
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.510 IST [5614] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.510 IST [5614] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.633 IST [5614] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.163 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=51564
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.635 IST [5605] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.766 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=51532
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.242 IST [5870] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=38872
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.313 IST [5870] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.313 IST [5870] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.359 IST [5873] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=38880
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.397 IST [5873] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.397 IST [5873] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.549 IST [5873] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.190 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=38880
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.567 IST [5876] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=38890
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.630 IST [5876] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.630 IST [5876] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.787 IST [5876] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.219 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=38890
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.805 IST [5879] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=38894
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.868 IST [5879] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.868 IST [5879] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.026 IST [5879] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.221 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=38894
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.028 IST [5870] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.786 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=38872
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.448 IST [6066] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=57626
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.522 IST [6066] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.522 IST [6066] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.568 IST [6069] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=57642
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.637 IST [6069] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.637 IST [6069] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.794 IST [6069] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.226 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=57642
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.812 IST [6072] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=57650
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.874 IST [6072] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.874 IST [6072] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.040 IST [6072] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.227 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=57650
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.058 IST [6075] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=57656
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.097 IST [6075] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.097 IST [6075] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.252 IST [6075] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.195 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=57656
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.254 IST [6066] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.807 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=57626
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.460 IST [6284] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40598
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.536 IST [6284] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.536 IST [6284] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.581 IST [6287] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40608
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.651 IST [6287] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.651 IST [6287] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.807 IST [6287] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.226 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=40608
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.825 IST [6290] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40620
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.890 IST [6290] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.890 IST [6290] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.055 IST [6290] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.230 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=40620
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.073 IST [6293] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=40626
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.136 IST [6293] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.136 IST [6293] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dump
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.292 IST [6293] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.219 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=40626
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.294 IST [6284] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.834 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=40598
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.575 IST [2295] harsh@harsh [local] FATAL:  terminating connection due to administrator command
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.575 IST [2295] harsh@harsh [local] LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.314 user=harsh database=harsh host=[local]
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.576 IST [4995] harsh@harsh [local] FATAL:  terminating connection due to administrator command
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.576 IST [4995] harsh@harsh [local] LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.598 user=harsh database=harsh host=[local]
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.576 IST [5335] postgres@postgres xxx.xxx.xxx.xxx FATAL:  terminating connection due to administrator command
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.577 IST [5335] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.291 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=59124
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.586 IST [2249] @  LOG:  received smart shutdown request
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.227 IST [2249] @  LOG:  received SIGHUP, reloading configuration files
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.409 IST [2249] @  LOG:  background worker "logical replication launcher" (PID 2256) exited with exit code 1
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.409 IST [2251] @  LOG:  shutting down
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.828 IST [2251] @  LOG:  checkpoint starting: shutdown immediate
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.099 IST [2251] @  LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.241 s, sync=0.001 s, total=1.690 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=27 kB; lsn=0/192C590, redo lsn=0/192C590
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.120 IST [2249] @  LOG:  database system is shut down
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.632 IST [2026] @  LOG:  starting PostgreSQL 16.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-22.0.1), 64-bit
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.633 IST [2026] @  LOG:  listening on IPv6 address "::1", port 5432
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.633 IST [2026] @  LOG:  listening on IPv4 address "xxx.xxx.xxx.xxx", port 5432
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.917 IST [2026] @  LOG:  listening on Unix socket "/db1/myserver/postgresql/run/.s.PGSQL.5432"
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.023 IST [2030] @  LOG:  database system was shut down at 2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx IST
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.150 IST [2026] @  LOG:  database system is ready to accept connections
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.098 IST [2028] @  LOG:  checkpoint starting: time
+2026-02-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.354 IST [2028] @  LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.046 s, sync=0.025 s, total=0.257 s; sync files=2, longest=0.013 s, average=0.013 s; distance=0 kB, estimate=0 kB; lsn=0/192C678, redo lsn=0/192C640

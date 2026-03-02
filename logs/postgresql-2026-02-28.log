@@ -1,0 +1,31 @@
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.782 IST [6845] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=33420
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.889 IST [6845] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.889 IST [6845] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dumpall
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.323 IST [6848] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=33636
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.396 IST [6848] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.396 IST [6848] postgres@template1 xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=template1 application_name=pg_dump
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.873 IST [6848] postgres@template1 xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.550 user=postgres database=template1 host=xxx.xxx.xxx.xxx port=33636
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.896 IST [6851] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=33648
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.965 IST [6851] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.965 IST [6851] postgres@harsh xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=harsh application_name=pg_dump
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.736 IST [6851] postgres@harsh xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.840 user=postgres database=harsh host=xxx.xxx.xxx.xxx port=33648
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.760 IST [6854] [unknown]@[unknown] xxx.xxx.xxx.xxx LOG:  connection received: host=xxx.xxx.xxx.xxx port=33658
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.827 IST [6854] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authenticated: identity="postgres" method=scram-sha-256 (/db1/myserver/postgresql/config/pg_hba.conf:PORT)
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.827 IST [6854] postgres@postgres xxx.xxx.xxx.xxx LOG:  connection authorized: user=postgres database=postgres application_name=pg_dump
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.180 IST [6854] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.421 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=33658
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.182 IST [6845] postgres@postgres xxx.xxx.xxx.xxx LOG:  disconnection: session time: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.401 user=postgres database=postgres host=xxx.xxx.xxx.xxx port=33420
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.424 IST [1202] @  LOG:  received smart shutdown request
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.783 IST [1202] @  LOG:  received SIGHUP, reloading configuration files
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.785 IST [1202] @  LOG:  background worker "logical replication launcher" (PID 1209) exited with exit code 1
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.786 IST [1204] @  LOG:  shutting down
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.953 IST [1204] @  LOG:  checkpoint starting: shutdown immediate
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.364 IST [1204] @  LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.579 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/192D3E8, redo lsn=0/192D3E8
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.384 IST [1202] @  LOG:  database system is shut down
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.112 IST [1079] @  LOG:  starting PostgreSQL 16.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-22.0.1), 64-bit
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.114 IST [1079] @  LOG:  listening on IPv6 address "::1", port 5432
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.114 IST [1079] @  LOG:  listening on IPv4 address "xxx.xxx.xxx.xxx", port 5432
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.224 IST [1079] @  LOG:  listening on Unix socket "/db1/myserver/postgresql/run/.s.PGSQL.5432"
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.329 IST [1083] @  LOG:  database system was shut down at 2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx IST
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.445 IST [1079] @  LOG:  database system is ready to accept connections
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.428 IST [1081] @  LOG:  checkpoint starting: time
+2026-02-28 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.671 IST [1081] @  LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.046 s, sync=0.021 s, total=0.244 s; sync files=2, longest=0.013 s, average=0.011 s; distance=0 kB, estimate=0 kB; lsn=0/192D4D0, redo lsn=0/192D498

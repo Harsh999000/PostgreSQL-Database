@@ -1,8 +1,0 @@
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.888 IST [1639] @  LOG:  starting PostgreSQL 16.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-22.0.1), 64-bit
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.890 IST [1639] @  LOG:  listening on IPv6 address "::1", port 5432
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.890 IST [1639] @  LOG:  listening on IPv4 address "xxx.xxx.xxx.xxx", port 5432
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.955 IST [1639] @  LOG:  listening on Unix socket "/db1/myserver/postgresql/run/.s.PGSQL.5432"
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.072 IST [1643] @  LOG:  database system was shut down at 2026-02-21 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx IST
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.188 IST [1639] @  LOG:  database system is ready to accept connections
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.167 IST [1641] @  LOG:  checkpoint starting: time
-2026-02-22 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.422 IST [1641] @  LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.046 s, sync=0.026 s, total=0.255 s; sync files=2, longest=0.013 s, average=0.013 s; distance=0 kB, estimate=0 kB; lsn=0/192C810, redo lsn=0/192C7D8

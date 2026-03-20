@@ -1,0 +1,91 @@
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.827 IST [1641] @  LOG:  starting PostgreSQL 16.4 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-22.0.1), 64-bit
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.828 IST [1641] @  LOG:  listening on IPv4 address "xxx.xxx.xxx.xxx", port 5432
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.831 IST [1641] @  LOG:  listening on Unix socket "/db1/myserver/postgresql/run/.s.PGSQL.5432"
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.840 IST [1645] @  LOG:  database system was shut down at 2026-03-18 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx IST
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.859 IST [1641] @  LOG:  database system is ready to accept connections
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.904 IST [1652] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.904 IST [1652] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.904 IST [1652] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.925 IST [1712] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.925 IST [1712] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.925 IST [1712] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.910 IST [1749] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.910 IST [1749] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.910 IST [1749] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.899 IST [1751] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.899 IST [1751] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.899 IST [1751] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.895 IST [1796] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.895 IST [1796] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.895 IST [1796] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.907 IST [1827] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.907 IST [1827] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.907 IST [1827] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.919 IST [1830] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.919 IST [1830] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.919 IST [1830] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.914 IST [1834] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.914 IST [1834] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.914 IST [1834] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.928 IST [1886] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.928 IST [1886] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.928 IST [1886] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.938 IST [1887] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.938 IST [1887] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.938 IST [1887] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.931 IST [1888] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.931 IST [1888] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.931 IST [1888] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.944 IST [1907] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.944 IST [1907] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.944 IST [1907] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.953 IST [1917] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.953 IST [1917] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.953 IST [1917] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.952 IST [1921] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.952 IST [1921] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.952 IST [1921] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.926 IST [1643] @  LOG:  checkpoint starting: time
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.943 IST [1643] @  LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.018 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/192EB38, redo lsn=0/192EB00
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.964 IST [1923] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.964 IST [1923] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.964 IST [1923] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.965 IST [1929] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.965 IST [1929] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.965 IST [1929] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.956 IST [1931] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.956 IST [1931] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.956 IST [1931] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.964 IST [1932] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.964 IST [1932] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.964 IST [1932] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.978 IST [1933] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.978 IST [1933] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.978 IST [1933] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.976 IST [1934] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.976 IST [1934] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.976 IST [1934] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.984 IST [1935] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.984 IST [1935] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.984 IST [1935] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.997 IST [1936] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.997 IST [1936] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.997 IST [1936] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.982 IST [1949] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.982 IST [1949] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.982 IST [1949] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.003 IST [1951] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.003 IST [1951] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.003 IST [1951] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.006 IST [2021] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.006 IST [2021] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.006 IST [2021] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.002 IST [2026] @  WARNING:  database "harsh" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.002 IST [2026] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.002 IST [2026] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE harsh REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.023 IST [2030] @  WARNING:  database "postgres" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.023 IST [2030] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.023 IST [2030] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.026 IST [2032] @  WARNING:  database "template1" has a collation version mismatch
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.026 IST [2032] @  DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.39.
+2026-03-20 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx.026 IST [2032] @  HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
